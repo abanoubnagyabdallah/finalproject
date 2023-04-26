@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="icon" href="./logo/logo.png" />
+
+    <!-- render allelements -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!-- font awesome library -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!-- style css sheet -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@600&family=Domine:wght@700&family=Fasthand&family=Libre+Baskerville&family=Lobster&family=Noto+Sans+Lepcha&family=Open+Sans:wght@400;700&family=Rubik+Iso&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- start header -->
+    <header>
+        <div class="container">
+            <a id="logo" href="index.html"><img src="./images/logo.png" alt=""></a>
+            <nav>
+                <input type="checkbox" id="check">
+                <label for="check" class="check_btn"><i class="fa-solid fa-bars"></i></label>
+                <ul>
+                    <div class="search-box">
+                        <a href="" class="icon">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </a>
+                        <input type="search" placeholder="Type Something" >
+                    </div>
+                    <li id="home"><a href="index.html" >Home</a></li>
+                    <li id="browse"><a href="browse.html">Browse</a></li>
+                    <li><a href="details.html">Details</a></li>
+                    <li><a href="streams.html">Streams</a></li>
+                    <li class="active"><a href="Profile.html">Profile<img src="./images/profile-header.jpg"></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- end header -->
+
+
+    <!-- start main section -->
+    <section>
+        <div class="container">
+            <div class="banner">
+                <p>Welcome To Cyborg</p>
+                <h1> <span>browse</span> our popular<br> games here</h1>
+                <button>Browse Now</button>
+            </div>
+            
+
+            <!-- start popular-games -->
+            <div class="popular-games">
+                <h1>Most Popular</h1><span id="browse">Right Now</span>
+                <!-- start Games container -->
+                <div class="games">
+                    <!-- box 1 -->
+                    <div class="box">
+                        <img src="./images/popular-01.jpg" alt="">
+                        <div class="p_and_icon">
+                            <div class="parag">
+                                <h4>fortnite</h4>
+                                <p>sandbox</p>
+                            </div>
+                            <div class="icon">
+                                <i class="fa-solid fa-star"><span>4.8</span></i>
+                                <i class="fa-solid fa-download"><span>2.3M</span></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- box 2 -->
+                    <div class="box">
+                        <img src="./images/popular-02.jpg" alt="">
+                        <div class="p_and_icon">
+                            <div class="parag">
+                                <h4>pubG</h4>
+                                <p>Battle s</p>
+                            </div>
+                            <div class="icon">
+                                <i class="fa-solid fa-star"><span>4.8</span></i>
+                                <i class="fa-solid fa-download"><span>2.3M</span></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- box 3 -->
+                    <div class="box">
+                        <img src="./images/popular-03.jpg" alt="">
+                        <div class="p_and_icon">
+                            <div class="parag">
+                                <h4>Dota2</h4>
+                                <p>Steam-X</p>
+                            </div>
+                            <div class="icon">
+                                <i class="fa-solid fa-star"><span>4.8</span></i>
+                                <i class="fa-solid fa-download"><span>2.3M</span></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- box 4 -->
+                    <div class="box">
+                        <img src="./images/popular-04.jpg" alt="">
+                        <div class="p_and_icon">
+                            <div class="parag">
+                                <h4>cs-GO</h4>
+                                <p>Legendary</p>
+                            </div>
+                            <div class="icon">
+                                <i class="fa-solid fa-star"><span>4.8</span></i>
+                                <i class="fa-solid fa-download"><span>2.3M</span></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- box 5 -->
+                    <!-- <div class="five_and_6"> -->
+                        <div class="box" id="box_five">
+                            <img src="./images/popular-05.jpg" alt="">
+                            <div class="p_and_icon">
+                                <div class="parag">
+                                    <h4>Mini Craft</h4>
+                                    <p>Legendary</p>
+                                </div>
+                                <div class="icon">
+                                    <i class="fa-solid fa-star"><span>4.8</span></i>
+                                    <i class="fa-solid fa-download"><span>2.3M</span></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- box 6 -->
+                        <div class="box" id="box_six">
+                            <img src="./images/popular-06.jpg" alt="">
+                            <div class="p_and_icon">
+                                <div class="parag">
+                                    <h4>Eagles Fly</h4>
+                                    <p>Matrix Games</p>
+                                </div>
+                                <div class="icon">
+                                    <i class="fa-solid fa-star"><span>4.8</span></i>
+                                    <i class="fa-solid fa-download"><span>2.3M</span></i>
+                                </div>
+                            </div>
+                        <!-- </div> -->
+                    </div>
+                    <!-- box 7 -->
+                    <div class="box">
+                        <img src="./images/popular-07.jpg" alt="">
+                        <div class="p_and_icon">
+                            <div class="parag">
+                                <h4>Warface</h4>
+                                <p>Max 3D</p>
+                            </div>
+                            <div class="icon">
+                                <i class="fa-solid fa-star"><span>4.8</span></i>
+                                <i class="fa-solid fa-download"><span>2.3M</span></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- box 8 -->
+                    <div class="box">
+                        <img src="./images/popular-08.jpg" alt="">
+                        <div class="p_and_icon">
+                            <div class="parag">
+                                <h4>Warecraft</h4>
+                                <p>Legend</p>
+                            </div>
+                            <div class="icon">
+                                <i class="fa-solid fa-star"><span>4.8</span></i>
+                                <i class="fa-solid fa-download"><span>2.3M</span></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end Games container -->
+                
+            </div>
+            <a href="https://www.fortnite.com/?lang=ar" target="_blank" id="first-button">Discover Popular</a>
+            <!-- end popular-games -->
+
+
+
+            <!-- start gaming library -->
+            <div class="gaming-library">
+                <h1>Your Gaming</h1>
+                <span>Library</span>
+                <div class="download-game">
+                    <!-- game 1 -->
+                    <div class="game">
+                        <div class="name">
+                            <img src="./images/game-01.jpg" alt="">
+                            <div class="">
+                                <h4>Dota2</h4>
+                                <p>sandbox</p>
+                            </div>
+                        </div>
+                        <div class="date">
+                            <h4>Date Added</h4>
+                            <p>16/4/2023</p>
+                        </div>
+                        <div class="time">
+                            <h4>Hours Played</h4>
+                            <p>634 H 22 Mins</p>
+                        </div>
+                        <div class="currently">
+                            <h4>Currently</h4>
+                            <p>Downloaded</p>
+                        </div>
+                        <a href="https://www.fortnite.com/?lang=ar" target="_blank">Downloaded</a>
+                    </div>
+                    
+                    <!-- game 2 -->
+                    <div class="game">
+                        <div class="name">
+                            <img src="./images/game-02.jpg" alt="">
+                            <div class="">
+                                <h4>fortnite</h4>
+                                <p>sandbox</p>
+                            </div>
+                        </div>
+                        <div class="date">
+                            <h4>Date Added</h4>
+                            <p>17/4/2023</p>
+                        </div>
+                        <div class="time">
+                            <h4>Hours Played</h4>
+                            <p>740 H 52 Mins</p>
+                        </div>
+                        <div class="currently">
+                            <h4>Currently</h4>
+                            <p>Downloaded</p>
+                        </div>
+                        <a href="" id="second-link">Downloaded</a>
+                    </div>
+                    
+                    <!-- game 3 -->
+                    <div class="game">
+                        <div class="name">
+                            <img src="./images/game-03.jpg" alt="">
+                            <div class="">
+                                <h4>cs-Go</h4>
+                                <p>sandbox</p>
+                            </div>
+                        </div>
+                        <div class="date">
+                            <h4>Date Added</h4>
+                            <p>18/4/2023</p>
+                        </div>
+                        <div class="time">
+                            <h4>Hours Played</h4>
+                            <p>892 H 14 Mins</p>
+                        </div>
+                        <div class="currently">
+                            <h4>Currently</h4>
+                            <p>Downloaded</p>
+                        </div>
+                        <a href="">Downloaded</a>
+                    </div>
+                    
+                </div>
+            </div>
+            <!-- end gaming library -->
+            <a href="https://www.fortnite.com/?lang=ar" id="last-button">View Your Library</a>
+        </div>
+    </section>
+    <!-- end main section -->
+
+
+    <footer>
+        Copyright &copy; 2023 Cyborg Gaming Company.All rights reserved.<br>
+        Design:<span> Abanoub Nagy</span>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>

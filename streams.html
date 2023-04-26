@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>streams</title>
+    <link rel="icon" href="./logo/logo.png" />
+
+    <!-- render allelements -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!-- font awesome library -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!-- style css sheet -->
+    <link rel="stylesheet" href="./css/streams.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@600&family=Domine:wght@700&family=Fasthand&family=Libre+Baskerville&family=Lobster&family=Noto+Sans+Lepcha&family=Open+Sans:wght@400;700&family=Rubik+Iso&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- start header -->
+    <header>
+        <div class="container">
+            <a id="logo" href="index.html"><img src="./images/logo.png" alt=""></a>
+            <nav>
+                <input type="checkbox" id="check">
+                <label for="check" class="check_btn"><i class="fa-solid fa-bars"></i></label>
+                <ul>
+                    <div class="search-box">
+                        <a href="" class="icon">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </a>
+                        <input type="search" placeholder="Type Something" >
+                    </div>
+                    <li id="home"><a href="index.html">Home</a></li>
+                    <li id="browse"><a href="browse.html">Browse</a></li>
+                    <li id="details"><a href="details.html">Details</a></li>
+                    <li id="streams"><a href="streams.html">Streams</a></li>
+                    <li class="active"><a href="Profile.html">Profile<img src="./images/profile-header.jpg"></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- end header -->
+    <!-- start main section -->
+    <section>
+        <div class="container">
+            <div class="live-stream">
+                <!-- start live stream -->
+                <div class="streams">
+                    <div class="head-streams">
+                        <div>
+                            <h1>Live</h1>
+                            <span id="span">Streams</span>
+                        </div>
+                        <div id="left-right">
+                            <i class="fa-sharp fa-solid fa-angle-left"></i>
+                            <i class="fa-sharp fa-solid fa-angle-right" ></i>
+                        </div>
+                    </div>
+                    <div class="games">
+                        <!-- box 1 -->
+                        <div class="box">
+                            <img src="./images/featured-01.jpg" alt="" data-aos="flip-right">
+                            <div class="game-discribtion">
+                                <div class="discribtion">
+                                    <h4>cs-Go</h4>
+                                    <p>249k Downloads</p>
+                                </div>
+                                <div class="star">
+                                    <i class="fa-solid fa-star"><span>4.8</span></i><br>
+                                    <i class="fa-solid fa-download"><span>2.3M</span></i>
+                                </div>
+                            </div>
+                            <div class="text-hover">
+                                <span>2.4K streaming</span>
+                            </div>
+                        </div>
+                        <!-- box 2 -->
+                        <div class="box">
+                            <img src="./images/featured-02.jpg" alt="" data-aos="flip-right">
+                            <div class="game-discribtion">
+                                <div class="discribtion">
+                                    <h4>Gamezer</h4>
+                                    <p>249k Downloads</p>
+                                </div>
+                                <div class="star">
+                                    <i class="fa-solid fa-star"><span>4.8</span></i><br>
+                                    <i class="fa-solid fa-download"><span>2.3M</span></i>
+                                </div>
+                            </div>
+                            <div class="text-hover">
+                                <span>2.4K streaming</span>
+                            </div>
+                        </div>
+                        <!-- box 3 -->
+                        <div class="box">
+                            <img src="./images/featured-03.jpg" alt="" data-aos="flip-right">
+                            <div class="game-discribtion">
+                                <div class="discribtion">
+                                    <h4>Island Rusty</h4>
+                                    <p>249k Downloads</p>
+                                </div>
+                                <div class="star">
+                                    <i class="fa-solid fa-star"><span>4.8</span></i><br>
+                                    <i class="fa-solid fa-download"><span>2.3M</span></i>
+                                </div>
+                            </div>
+                            <div class="text-hover">
+                                <span>2.4K streaming</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end live stream -->
+                <!-- start top streamers -->
+                <div class="top-streamers">
+                    <h1>Top</h1> <span id="span">Streamers</span>
+                    <div class="streamers">
+                        <div class="streamer">
+                            <p>01</p>
+                            <img src="./images/avatar-01.jpg" alt="">
+                            <i class="fa-solid fa-check"></i><span>LahutaM</span>
+                            <a href="">Follow</a>
+                        </div><hr>
+                        <div class="streamer">
+                            <p>02</p>
+                            <img src="./images/avatar-02.jpg" alt="">
+                            <i class="fa-solid fa-check"></i><span>Kengan</span>
+                            <a href="">Follow</a>
+                        </div><hr>
+                        <div class="streamer">
+                            <p>03</p>
+                            <img src="./images/avatar-03.jpg" alt="">
+                            <i class="fa-solid fa-check"></i><span>AreLuwa</span>
+                            <a href="">Follow</a>
+                        </div><hr>
+                        <div class="streamer">
+                            <p>04</p>
+                            <img src="./images/avatar-04.jpg" alt="" id="img-four">
+                            <i class="fa-solid fa-check"></i><span>Omeg</span>
+                            <a href="">Follow</a>
+                        </div><hr>
+                        <div class="streamer">
+                            <p>05</p>
+                            <img src="./images/avatar-01.jpg" alt="">
+                            <i class="fa-solid fa-check"></i><span>GangTeam</span>
+                            <a href="">Follow</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- end top streamers -->
+            </div>
+
+
+
+            <!-- start most popular live stream -->
+            <div class="section-two">
+                <div class="head">
+                    <h1>Most Popular</h1><span id="span">Live stream</span>
+                </div>
+                <div class="box-container">
+                    <div class="box">
+                        <img src="./images/stream-05.jpg" alt="">
+                        <div class="streamer">
+                            <img src="./images/avatar-01.jpg" alt="avatar">
+                            <div class="streamer-info">
+                                <i class="fa-solid fa-check"></i><span>Kengan Omeg</span>
+                                <h3>Just Talking With Fans</h3>
+                            </div>
+                        </div>
+                        <div class="hover-elements">
+                            <a href="" class="hover-link">Live</a>
+                            <i class="fa-regular fa-eye"><span>1.2K</span></i>
+                            <i class="fa-solid fa-gamepad"><span>Cs-Go</span></i>
+                        </div>
+                    </div>
+                    <div class="box">
+                        
+                        <img src="./images/stream-06.jpg" alt="">
+                        <div class="streamer">
+                            <img src="./images/avatar-02.jpg" alt="avatar">
+                            <div class="streamer-info">
+                                <i class="fa-solid fa-check"></i><span>LahutaMalc</span>
+                                <h3>Cs-Go 36 Hours Live Stream</h3>
+                            </div>
+                        </div>
+                        <div class="hover-elements">
+                            <a href="" class="hover-link">Live</a>
+                            <i class="fa-regular fa-eye"><span>1.2K</span></i>
+                            <i class="fa-solid fa-gamepad"><span>Cs-Go</span></i>
+                        </div>
+                    </div>
+                    <div class="box">
+                        
+                        <img src="./images/stream-07.jpg" alt="">
+                        <div class="streamer">
+                            <img src="./images/avatar-03.jpg" alt="avatar">
+                            <div class="streamer-info">
+                                <i class="fa-solid fa-check"></i><span>Areluwa</span>
+                                <h3>Maybe Nathej AllNight chillin’</h3>
+                            </div>
+                        </div>
+                        <div class="hover-elements">
+                            <a href="" class="hover-link">Live</a>
+                            <i class="fa-regular fa-eye"><span>1.2K</span></i>
+                            <i class="fa-solid fa-gamepad"><span>Cs-Go</span></i>
+                        </div>
+                    </div>
+                    <div class="box">
+                        
+                        <img src="./images/stream-08.jpg" alt="">
+                        <div class="streamer">
+                            <img src="./images/avatar-04.jpg" alt="avatar">
+                            <div class="streamer-info">
+                                <i class="fa-solid fa-check"></i><span>NewGangTeam</span>
+                                <h3>Live Streaming Till Morning</h3>
+                            </div>
+                        </div>
+                        <div class="hover-elements">
+                            <a href="" class="hover-link">Live</a>
+                            <i class="fa-regular fa-eye"><span>1.2K</span></i>
+                            <i class="fa-solid fa-gamepad"><span>Cs-Go</span></i>
+                        </div>
+                    </div>
+                    <div class="box">
+                        
+                        <img src="./images/stream-07.jpg" alt="">
+                        <div class="streamer">
+                            <img src="./images/avatar-01.jpg" alt="avatar">
+                            <div class="streamer-info">
+                                <i class="fa-solid fa-check"></i><span>Kengan Omeg</span>
+                                <h3>Just Talking With Fans</h3>
+                            </div>
+                        </div>
+                        <div class="hover-elements">
+                            <a href="" class="hover-link">Live</a>
+                            <i class="fa-regular fa-eye"><span>1.2K</span></i>
+                            <i class="fa-solid fa-gamepad"><span>Cs-Go</span></i>
+                        </div>
+                    </div>
+                    <div class="box">
+                        
+                        <img src="./images/stream-08.jpg" alt="">
+                        <div class="streamer">
+                            <img src="./images/avatar-02.jpg" alt="avatar">
+                            <div class="streamer-info">
+                                <i class="fa-solid fa-check"></i><span>LahutaMalc</span>
+                                <h3>Cs-Go 36 Hours Live Stream</h3>
+                            </div>
+                        </div>
+                        <div class="hover-elements">
+                            <a href="" class="hover-link">Live</a>
+                            <i class="fa-regular fa-eye"><span>1.2K</span></i>
+                            <i class="fa-solid fa-gamepad"><span>Cs-Go</span></i>
+                        </div>
+                    </div>
+                    <div class="box">
+                        
+                        <img src="./images/stream-05.jpg" alt="">
+                        <div class="streamer">
+                            <img src="./images/avatar-03.jpg" alt="avatar">
+                            <div class="streamer-info">
+                                <i class="fa-solid fa-check"></i><span>Areluwa</span>
+                                <h3>Maybe Nathej AllNight chillin’</h3>
+                            </div>
+                        </div>
+                        <div class="hover-elements">
+                            <a href="" class="hover-link">Live</a>
+                            <i class="fa-regular fa-eye"><span>1.2K</span></i>
+                            <i class="fa-solid fa-gamepad"><span>Cs-Go</span></i>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="./images/stream-06.jpg" alt="">
+                        <div class="streamer">
+                            <img src="./images/avatar-04.jpg" alt="avatar">
+                            <div class="streamer-info">
+                                <i class="fa-solid fa-check"></i><span>NewGangTeam</span>
+                                <h3>Live Streaming Till Morning</h3>
+                            </div>
+                        </div>
+                        <div class="hover-elements">
+                            <a href="" class="hover-link">Live</a>
+                            <i class="fa-regular fa-eye"><span>1.2K</span></i>
+                            <i class="fa-solid fa-gamepad"><span>Cs-Go</span></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end most popular live stream -->
+            <a href="" id="discover">Load More Streams</a>
+        </div>
+    </section>
+    <!-- end main section -->
+    <!-- start footer -->
+    <footer>
+        Copyright &copy; 2023 Cyborg Gaming Company.All rights reserved.<br>
+        Design:<span> Abanoub Nagy</span>
+    </footer>
+    <!-- end footer -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>

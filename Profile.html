@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="icon" href="./logo/logo.png" />
+
+    <!-- render allelements -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!-- font awesome library -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!-- style css sheet -->
+    <link rel="stylesheet" href="./css/Profile.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@600&family=Domine:wght@700&family=Fasthand&family=Libre+Baskerville&family=Lobster&family=Noto+Sans+Lepcha&family=Open+Sans:wght@400;700&family=Rubik+Iso&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- start header -->
+    <header>
+        <div class="container">
+            <a id="logo" href="index.html"><img src="./images/logo.png" alt=""></a>
+            <nav>
+                <input type="checkbox" id="check">
+                <label for="check" class="check_btn"><i class="fa-solid fa-bars"></i></label>
+                <ul>
+                    <div class="search-box">
+                        <a href="" class="icon">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </a>
+                        <input type="search" placeholder="Type Something" >
+                    </div>
+                    <li id="home"><a href="index.html">Home</a></li>
+                    <li id="browse"><a href="browse.html">Browse</a></li>
+                    <li id="details"><a href="details.html">Details</a></li>
+                    <li id="streams"><a href="streams.html">Streams</a></li>
+                    <li class="active"><a href="Profile.html">Profile<img src="./images/profile-header.jpg"></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- end header -->
+    <!-- start main section -->
+    <section>
+        <div class="container">
+            <!-- start information -->
+            <div class="profile">
+                <div class="about-you">
+                    <img src="./images/profile.jpg" alt="">
+                    <div class="information">
+                        <button>Offline</button>
+                        <h2>Abanoub Nagy</h2>
+                        <p>You Haven’t Gone Live yet. Go Live By Touching The Button Bellow</p>
+                        <a href="">Start Live Stream</a>
+                    </div>
+                    <div class="statistics">
+                        <div class="stat">
+                            <p>Games Downloaded</p>
+                            <span>3</span>
+                        </div><hr>
+                        <div class="stat">
+                            <p>Friends Online</p>
+                            <span>16</span>
+                        </div><hr>
+                        <div class="stat">
+                            <p>Live Streams</p>
+                            <span>None</span>
+                        </div><hr>
+                        <div class="stat">
+                            <p>Clips</p>
+                            <span>29</span>
+                        </div>
+                    </div>
+                </div><hr>
+                <!-- start most popular clips -->
+                <h1>Your Most Popular</h1> <span id="span">Clips</span>
+                <div class="clips">
+                    <div class="clip">
+                        <a href="https://youtu.be/NA0FqZ2QzqA" target="_blank"><i class="fa-brands fa-youtube fa-beat"></i><img src="./images/clip-01.jpg" alt=""></a>
+                        <div class="clip-ranking">
+                            <h3>First Clip</h3>
+                            <i class="fa-regular fa-eye"><span>250</span></i>
+                        </div>
+                    </div>
+                    <div class="clip">
+                        <a href="https://youtu.be/NA0FqZ2QzqA" target="_blank"><i class="fa-brands fa-youtube fa-beat"></i><img src="./images/clip-02.jpg" alt=""></a>
+                        <div class="clip-ranking">
+                            <h3>Second Clip</h3>
+                            <i class="fa-regular fa-eye"><span>183</span></i>
+                        </div>
+                    </div>
+                    <div class="clip">
+                        <a href="https://youtu.be/NA0FqZ2QzqA" target="_blank"><i class="fa-brands fa-youtube fa-beat"></i><img src="./images/clip-03.jpg" alt=""></a>
+                        <div class="clip-ranking">
+                            <h3>Third Clip</h3>
+                            <i class="fa-regular fa-eye"><span>141</span></i>
+                        </div>
+                    </div>
+                    <div class="clip">
+                        <a href="https://youtu.be/NA0FqZ2QzqA" target="_blank"><i class="fa-brands fa-youtube fa-beat"></i><img src="./images/clip-04.jpg" alt=""></a>
+                        <div class="clip-ranking">
+                            <h3>Fourth Clip</h3>
+                            <i class="fa-regular fa-eye"><span>91</span></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- end most popular clips -->
+                <a href="">Load More Clips</a>
+            </div>
+            <!-- end information -->
+            <!-- start gaming library -->
+            <div class="gaming-library">
+                <h1>Your Gaming</h1>
+                <span id="span">Library</span>
+                <div class="download-game">
+                    <!-- game 1 -->
+                    <div class="game">
+                        <div class="name">
+                            <img src="./images/game-01.jpg" alt="">
+                            <div class="">
+                                <h4>Dota2</h4>
+                                <p>sandbox</p>
+                            </div>
+                        </div>
+                        <div class="date">
+                            <h4>Date Added</h4>
+                            <p>16/4/2023</p>
+                        </div>
+                        <div class="time">
+                            <h4>Hours Played</h4>
+                            <p>634 H 22 Mins</p>
+                        </div>
+                        <div class="currently">
+                            <h4>Currently</h4>
+                            <p>Downloaded</p>
+                        </div>
+                        <a href="https://www.dota2.com/home" target="_blank">Downloaded</a>
+                    </div>
+                    <hr>
+                    <!-- game 2 -->
+                    <div class="game">
+                        <div class="name">
+                            <img src="./images/game-02.jpg" alt="">
+                            <div class="">
+                                <h4>fortnite</h4>
+                                <p>sandbox</p>
+                            </div>
+                        </div>
+                        <div class="date">
+                            <h4>Date Added</h4>
+                            <p>17/4/2023</p>
+                        </div>
+                        <div class="time">
+                            <h4>Hours Played</h4>
+                            <p>740 H 52 Mins</p>
+                        </div>
+                        <div class="currently">
+                            <h4>Currently</h4>
+                            <p>Downloaded</p>
+                        </div>
+                        <a href="https://store.epicgames.com/ar/p/fortnite" target="_blank" id="second-link">Downloaded</a>
+                    </div>
+                    <hr>
+                    <!-- game 3 -->
+                    <div class="game">
+                        <div class="name">
+                            <img src="./images/game-03.jpg" alt="">
+                            <div class="">
+                                <h4>cs-Go</h4>
+                                <p>sandbox</p>
+                            </div>
+                        </div>
+                        <div class="date">
+                            <h4>Date Added</h4>
+                            <p>18/4/2023</p>
+                        </div>
+                        <div class="time">
+                            <h4>Hours Played</h4>
+                            <p>892 H 14 Mins</p>
+                        </div>
+                        <div class="currently">
+                            <h4>Currently</h4>
+                            <p>Downloaded</p>
+                        </div>
+                        <a href="https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/" target="_blank">Downloaded</a>
+                    </div>
+                    
+                </div>
+            </div>
+            <!-- end gaming library -->
+        </div>
+    </section>
+    <!-- end main section -->
+
+
+
+    <!-- start footer -->
+    <footer>
+        Copyright &copy; 2023 Cyborg Gaming Company.All rights reserved.<br>
+        Design:<span> Abanoub Nagy</span>
+    </footer>
+    <!-- end footer -->
+</body>
+</html>

@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browse</title>
+    <link rel="icon" href="./logo/logo.png" />
+
+    <!-- render allelements -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!-- font awesome library -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!-- style css sheet -->
+    <link rel="stylesheet" href="./css/browse.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@600&family=Domine:wght@700&family=Fasthand&family=Libre+Baskerville&family=Lobster&family=Noto+Sans+Lepcha&family=Open+Sans:wght@400;700&family=Rubik+Iso&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- start header -->
+    <header>
+        <div class="container">
+            <a id="logo" href="index.html"><img src="./images/logo.png" alt=""></a>
+            <nav>
+                <input type="checkbox" id="check">
+                <label for="check" class="check_btn"><i class="fa-solid fa-bars"></i></label>
+                <ul>
+                    <div class="search-box">
+                        <a href="" class="icon">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </a>
+                        <input type="search" placeholder="Type Something" >
+                    </div>
+                    <li id="home"><a href="index.html">Home</a></li>
+                    <li id="browse"><a href="browse.html">Browse</a></li>
+                    <li id="details"><a href="details.html">Details</a></li>
+                    <li id="streams"><a href="streams.html">Streams</a></li>
+                    <li class="active"><a href="Profile.html">Profile<img src="./images/profile-header.jpg"></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- end header -->
+    
+    <section>
+        <div class="container">
+            <!-- start feature games & top downloaded -->
+            <div class="feature-Top">
+                <div class="features">
+                    <div class="head-features">
+                        <div>
+                            <h1>Featured</h1>
+                            <span id="span">Games</span>
+                        </div>
+                        <div id="left-right">
+                            <i class="fa-sharp fa-solid fa-angle-left"></i>
+                            <i class="fa-sharp fa-solid fa-angle-right"></i>
+                        </div>
+                    </div>
+                    <div class="games">
+                        <!-- box 1 -->
+                        <div class="box">
+                            <img src="./images/featured-01.jpg" alt="" data-aos="flip-right">
+                            <div class="game-discribtion">
+                                <div class="discribtion">
+                                    <h4>cs-Go</h4>
+                                    <p>249k Downloads</p>
+                                </div>
+                                <div class="star">
+                                    <i class="fa-solid fa-star"><span>4.8</span></i><br>
+                                    <i class="fa-solid fa-download"><span>2.3M</span></i>
+                                </div>
+                            </div>
+                            <div class="text-hover">
+                                <span>2.4K streaming</span>
+                            </div>
+                        </div>
+                        <!-- box 2 -->
+                        <div class="box">
+                            <img src="./images/featured-02.jpg" alt="" data-aos="flip-right">
+                            <div class="game-discribtion">
+                                <div class="discribtion">
+                                    <h4>Gamezer</h4>
+                                    <p>249k Downloads</p>
+                                </div>
+                                <div class="star">
+                                    <i class="fa-solid fa-star"><span>4.8</span></i><br>
+                                    <i class="fa-solid fa-download"><span>2.3M</span></i>
+                                </div>
+                            </div>
+                            <div class="text-hover">
+                                <span>2.4K streaming</span>
+                            </div>
+                        </div>
+                        <!-- box 3 -->
+                        <div class="box">
+                            <img src="./images/featured-03.jpg" alt="" data-aos="flip-right">
+                            <div class="game-discribtion">
+                                <div class="discribtion">
+                                    <h4>Island Rusty</h4>
+                                    <p>249k Downloads</p>
+                                </div>
+                                <div class="star">
+                                    <i class="fa-solid fa-star"><span>4.8</span></i><br>
+                                    <i class="fa-solid fa-download"><span>2.3M</span></i>
+                                </div>
+                            </div>
+                            <div class="text-hover">
+                                <span>2.4K streaming</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="top-downloaded">
+                    <div class="top-head">
+                        <h1>Top</h1>
+                        <span id="span">Downloaded</span>
+                    </div>
+                    <div class="Top-games">
+                        <!-- box 1 -->
+                        <div class="box">
+                            <img src="./images/game-01.jpg" alt="">
+                            <div class="top1">
+                                <h4>Fortnite</h4>
+                                <p>Sandbox</p>
+                                <div class="icons">
+                                    <i class="fa-solid fa-star"><span>4.8</span></i>
+                                    <i class="fa-solid fa-download"><span>2.3M</span></i>
+                                </div>
+                            </div>
+                            <div class="download"><i class="fa-solid fa-download"></i></div>
+                        </div><hr>
+                        <!-- box 2 -->
+                        <div class="box">
+                            <img src="./images/game-02.jpg" alt="">
+                            <div class="top1">
+                                <h4>cs-Go</h4>
+                                <p>Legendary</p>
+                                <div class="icons">
+                                    <i class="fa-solid fa-star"><span>4.8</span></i>
+                                    <i class="fa-solid fa-download"><span>2.3M</span></i>
+                                </div>
+                            </div>
+                            <div class="download"><i class="fa-solid fa-download"></i></div>
+                        </div><hr>
+                        <!-- box 3 -->
+                        <div class="box">
+                            <img src="./images/game-03.jpg" alt="">
+                            <div class="top1">
+                                <h4>PugG</h4>
+                                <p>Battle Royale</p>
+                                <div class="icons">
+                                    <i class="fa-solid fa-star"><span>4.8</span></i>
+                                    <i class="fa-solid fa-download"><span>2.3M</span></i>
+                                </div>
+                            </div>
+                            <div class="download"><i class="fa-solid fa-download"></i></div>
+                        </div><hr>
+                    </div>
+                    <a href="https://www.fortnite.com/?lang=ar" target="_blank">View All Games</a>
+                </div>
+            </div>
+            <!-- end feature games & top downloaded -->
+
+            <!-- start live stream -->
+            <div class="live-stream">
+                <div class="head">
+                    <h1>How To Start Your</h1><span id="span">Live Stream</span>
+                </div>
+                <div class="services">
+                    <div class="service">
+                        <img src="./images/service-01.jpg" alt="">
+                        <h3>Go To Your Profile</h3>
+                        <p>Cyborg Gamong is free Html Css website template provided by templateMo. This is Bootstrap v5.2.0 layout.</p>
+                    </div>
+                    <div class="service">
+                        <img src="./images/service-02.jpg" alt="">
+                        <h3>Live Stream Button</h3>
+                        <p>If you wish to support us, you can make a <span>small contribution via paypal</span> to info [at] templatemo.com</p>
+                    </div>
+                    <div class="service">
+                        <img src="./images/service-03.jpg" alt="">
+                        <h3>You Are Live</h3>
+                        <p>you are not allowed to redistribute this template’s downloadable zip file on any other template collection website.</p>
+                    </div>
+                </div>
+                <a href="Profile.html" target="_blank">Go To Profile</a>
+            </div>
+            <!-- end live stream -->
+
+            <!-- start most popular live stream -->
+            <div class="section-two">
+                <div class="head">
+                    <h1>Most Popular</h1><span id="span">Live stream</span>
+                </div>
+                <div class="box-container">
+                    <!--  -->
+                    <div class="box">
+                        <img src="./images/stream-01.jpg" alt="">
+                        <div class="streamer">
+                            <img src="./images/avatar-01.jpg" alt="avatar">
+                            <div class="streamer-info">
+                                <i class="fa-solid fa-check"></i><span>KenganC</span>
+                                <h3>Just Talking With Fans</h3>
+                            </div>
+                        </div>
+                        <div class="hover-elements">
+                            <a href="" class="hover-link">Live</a>
+                            <i class="fa-regular fa-eye"><span>1.2K</span></i>
+                            <i class="fa-solid fa-gamepad"><span>Cs-Go</span></i>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="box">
+                        <img src="./images/stream-02.jpg" alt="">
+                        <div class="streamer">
+                            <img src="./images/avatar-02.jpg" alt="avatar">
+                            <div class="streamer-info">
+                                <i class="fa-solid fa-check"></i><span>LunaMa</span>
+                                <h3>Cs-Go 36 Hours Live Stream</h3>
+                            </div>
+                        </div>
+                        <div class="hover-elements">
+                            <a href="" class="hover-link">Live</a>
+                            <i class="fa-regular fa-eye"><span>1.2K</span></i>
+                            <i class="fa-solid fa-gamepad"><span>Cs-Go</span></i>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="box">
+                        <img src="./images/stream-03.jpg" alt="">
+                        <div class="streamer">
+                            <img src="./images/avatar-03.jpg" alt="avatar">
+                            <div class="streamer-info">
+                                <i class="fa-solid fa-check"></i><span>Areluwa</span>
+                                <h3>Maybe Nathej AllNight chillin’</h3>
+                            </div>
+                        </div>
+                        <div class="hover-elements">
+                            <a href="" class="hover-link">Live</a>
+                            <i class="fa-regular fa-eye"><span>1.2K</span></i>
+                            <i class="fa-solid fa-gamepad"><span>Cs-Go</span></i>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="box">
+                        <img src="./images/stream-04.jpg" alt="">
+                        <div class="streamer">
+                            <img src="./images/avatar-04.jpg" alt="avatar">
+                            <div class="streamer-info">
+                                <i class="fa-solid fa-check"></i><span>GangTm</span>
+                                <h3>Live Streaming Till Morning</h3>
+                            </div>
+                        </div>
+                        <div class="hover-elements">
+                            <a href="" class="hover-link">Live</a>
+                            <i class="fa-regular fa-eye"><span>1.2K</span></i>
+                            <i class="fa-solid fa-gamepad"><span>Cs-Go</span></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end most popular live stream -->
+            <a href="https://store.steampowered.com/app/872990/Stream_Games/" id="discover" target="_blank">Discover All Streams</a>
+        </div>
+    </section>
+    
+    <!-- start footer -->
+    <footer>
+        Copyright &copy; 2023 Cyborg Gaming Company.All rights reserved.<br>
+        Design:<span> Abanoub Nagy</span>
+    </footer>
+    <!-- end footer -->
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
